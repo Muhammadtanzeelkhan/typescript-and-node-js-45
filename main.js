@@ -27,10 +27,9 @@
 // let favouriteNumber=10;
 // console.log("my favourite number is", favouriteNumber);
 //Q10:
-// let whiteSpace="\n\t Tanzeel\t\n";//n is used for new line and \t is used for whitespace
 // console.log(whiteSpace);
 // let withoutwhiteSpace = whiteSpace.trim();
-// console.log(withoutwhiteSpace);
+// console.log(with// let whiteSpace="\n\t Tanzeel\t\n";//n is used for new line and \t is used for whitespaceoutwhiteSpace);
 //Q11:
 // let friendName =["Taha","Ayan","Ali","Arham"]
 // console.log(friendName[0])
@@ -153,3 +152,125 @@
 // console.log("list of mobiles:")
 // console.log(mobiles)
 // Q21:
+// console.log(person)
+// Q22:
+// const days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+// console.log(days{7})
+// console.log(days[5]);
+// Q23:
+// Test 1: 
+// let car = 'subaru';
+// console.log("is car == 'subaru'? I predict True.");
+// console.log(car == 'subaru');
+// Test 2:
+// console.log("is car != 'honda civic'? predict True.");
+// console.log(car != 'hondacivic');
+// Test 3:
+// console.log("is car == 'subaru'? predict False.");
+// console.log(car == 'SUBARE');
+// Test 4:
+// console.log("is car.lenght == 6? predict True.");
+// console.log(car.length == 6);
+// Test 5:
+// console.log("is car.length !=10? predict False.");
+// console.log(car.length != 10);
+// Test 6: 
+// console.log("is 10 > 5 ? predict False.");
+// console.log(10 > 45);
+// Test 7: 
+// console.log("is 3 <= 2 ? predict False.");
+// console.log(3 <= 2);
+// Test 8: 
+// console.log("is 72 <= 83 ? predict False.");
+// console.log(72 >= 83);
+// Test 9:
+// console.log("is car == ''subaru' && car.length == 6? predict False. ");
+// console.log(car == 'subaru' && car.length == 6)
+// Test 10:
+// console.log("is car.lenght == 8? predict Fasle.");
+// console.log(car.length == 8);
+//  Q24:
+// part#1
+// let name_1 : string = "Tanzeel"
+// let name_2 : string = "muhummad tanzeel"
+// let name_3 : string = "muhummad tanzeel khan"
+// if (name_1 == name_3){
+//     console.log("names are equal")
+// } else {
+//     console.log("names are not equal")
+// }
+// if (name_1 !=name_2){
+//     console.log("names are equal")
+// }
+// part#2
+// if (name_1 != name_3){
+//     console.log("names are equal")
+// } 
+// // part#3
+// let age_1 : number = 16
+// let age_2 : number = 20
+// if (age_1 == 16) {
+//     console.log("eligible for vote")
+// }
+// if (age_1 != 20) {
+//     console.log("eligible for vote in older category")
+// }
+// part#3
+// if (age_1 <= age_2){  //less
+//     console.log("younger")
+// }
+// if (age_2 >= age_1){ //greater
+//     console.log("older")  
+// }
+// part#4
+// if(age_1 == 16 || age_2 == 20){
+//     console.log("person is eligible for vote")
+// }
+// if(age_1 == 16 || age_2 == 20){
+//     console.log("person is eligible not for vote")
+// }
+// part#5
+// let country = ["Pakistan","Japan","America","Germany"]
+// if (!country.includes("pakistan")){
+//     console.log("Pakistan is in country list")
+// }
+// part#6
+// if (!country.includes ("america")){
+//     console.log('America is not include in an array')
+// }
+// Q25:
+// let alien_colour = "green"
+// part#1
+// if (alien_colour = "green")
+// console.log("you earn 5 points")
+//part#2
+// let alien_colour = "red"
+// if (alien_colour == "red")
+// console.log("no output")
+// Q26:
+// let alien_colour = "green"
+// // part#1
+// if (alien_colour = "green") {
+// console.log("player just earned 5 point for shooting alien")
+// }
+// //part2
+// else {
+//     console.log("player just earned 10 points")
+// }
+// part#3
+// let alien_colour = "red"
+// if (alien_colour == "green") {
+// console.log("player just earned 5 point for shooting alien")
+// }
+// else {
+//     console.log("player just earned 10 points")
+// }
+// Q27:
+let alien_colour = "green";
+if (alien_colour == "green") {
+    console.log("5 points");
+}
+if (alien_colour == "")
+    yellow;
+" {;
+console.log("10 points");
