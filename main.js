@@ -27,9 +27,10 @@
 // let favouriteNumber=10;
 // console.log("my favourite number is", favouriteNumber);
 //Q10:
+// let whiteSpace="\n\t Tanzeel\t\n";//n is used for new line and \t is used for whitespace
 // console.log(whiteSpace);
 // let withoutwhiteSpace = whiteSpace.trim();
-// console.log(with// let whiteSpace="\n\t Tanzeel\t\n";//n is used for new line and \t is used for whitespaceoutwhiteSpace);
+// console.log(withoutwhiteSpace);
 //Q11:
 // let friendName =["Taha","Ayan","Ali","Arham"]
 // console.log(friendName[0])
@@ -266,11 +267,286 @@
 //     console.log("player just earned 10 points")
 // }
 // Q27:
-let alien_colour = "green";
-if (alien_colour == "green") {
-    console.log("5 points");
-}
-if (alien_colour == "")
-    yellow;
-" {;
-console.log("10 points");
+// let alien_colour = "green"
+// if (alien_colour == "green") {
+//     console.log("5 points")
+// } else if (alien_colour == "yellow") {
+//     console.log("10 points")
+//  } else{
+//         console.log("15 points")
+//     }
+//Q28:
+//  ..............2,4,13,20,65
+// let age : number = 18
+// if(age < 2){
+// console.log("you are a baby")
+// } else if (age < 4) {
+// console.log("you are a toddler")
+// } else if (age < 13){
+//   console.log("yoy area kid")
+// } else if (age < 20){
+// console.log("you are teenager")
+// } else if( age < 65) {
+// console.log("you are adult")
+// } else{
+// console.log("you are older")
+// }
+//question:29    ......... you really like banana
+// let favourite_fruits : string  [] = ["kivi","orange","apple","strawberry","mango"] 
+
+// if (favourite_fruits.includes("kivi")) {
+//     console.log("kivi")
+// }
+
+// if (favourite_fruits.includes("peach")) {
+//     console.log("you really like banana")
+// }    
+
+// if (favourite_fruits.includes("orange")) {
+//     console.log("orange")
+// }
+
+// if (favourite_fruits.includes("berry")) {
+//     console.log("you really like banana")
+// }
+
+// if (favourite_fruits.includes("apple")) {
+//     console.log("apple")
+// }
+
+//question:30
+// let userNames : string [] = ["Admin","Faisal","Hamzah","Asharib","Mehak"]
+
+//  userNames.forEach(username => {
+    // if (username === "Admin") {
+        // console.log("Hello",username," would you like to see a status report?")
+    // } else {
+        // console.log("Hello",username, "thank you for logging in again.");
+    // }
+    // })
+
+    //question:31
+   // let userNames : string [] = ["Admin","Faisal","Hamzah","Asharib","Mehak"];
+// 
+    //  if(userNames.length === 0){
+        // console.log("we need to find some users"); 
+
+    // }else{
+        // userNames = [];
+        // console.log("all users has been removed" , userNames.length);
+
+    //   } 
+
+    //question:32
+// let currentUsers : string [] =  ["Admin","Samreen","Maheen","Samiya","Aamir"];
+// let newUsers : string [] = ["Admin","Samreen","Sana","Beenish","Samiya"];
+
+// for (let new_users of newUsers) {
+  //  const lowercase_new_users = new_users.toLowerCase();
+//
+    // if(currentUsers.map(user => user.toLowerCase()).includes(lowercase_new_users)){
+        // console.log(`the username ${new_users}is not available`);
+// 
+//    }else{
+    // console.log(`the username ${new_users} is available`);
+    // }
+// }
+// question:33........ordinal ending
+// let number : number [] =[1,2,3,4,5,6,7,8,9]
+// 
+// for(let  i =0 ;i < number.length;i++) {
+    // const numbers = number[i];
+    // let ordinalEnding :string;
+// 
+// if(numbers === 1) {
+    // ordinalEnding ="st";
+    // 
+// }else if (numbers === 2) {
+    // ordinalEnding ="nd";
+// 
+// }else if(numbers === 3) {
+    //    ordinalEnding = "rd";
+// }else{
+    // ordinalEnding ="th";
+
+    // console.log(`${numbers}${ordinalEnding}`)
+// }
+
+//question:34
+// let pizzas : string[]= ["Pepperoni","Italian","BBQ chicken"];
+
+// for(let i =0 ; i<pizzas.length;i++) {
+
+    // console.log(`I like ${pizzas[i]} pizza`);
+// }
+// console.log("I really love pizza!");
+
+//question:35
+// let animal :string[]= ["lion","rabbit","cow"];
+
+// for(let i = 0 ;i<animal.length ;i++){
+//     console.log(`A ${animal[i]} would make a great pet`);
+// }
+// console.log("Any of these animals would make a great pet!");
+
+//quesiton:36
+
+// function makeShirt(size: string, text: string):void{
+    // console.log(`/n you order a ${size} shirt that says ${text}`)
+// } 
+// makeShirt(`large`,'"i love typescript"');
+// makeShirt(`medium`,'"i need a big shirt"');
+
+
+// //quesiton:37
+// function makeShirt(size: string = "large", text: string ="I love typescript"): void {
+//     console.log(`you have order a ${size}, shirt that says ${text}`)
+// }
+
+// makeShirt();
+//  makeShirt('medium')
+
+// different message
+//  makeShirt(`small`,`I need a big shirt to wear`)
+
+//question:38
+// function describe_city(city: string, country: string =`Pakistan`):void{
+        // console.log(`${city} is in ${country} `)
+// }
+
+// describe_city(`Karachi`) //default sentence
+// describe_city(`Farance`,`Europe`)
+// describe_city(`Lahore`,`Punjab`)
+
+//question:39
+// function citycountry(city:string,country: string): string {
+//     return`${city}, ${country}`
+// }
+
+// let c1 = citycountry(`Lahore` ,`Pakistan`)
+// let c2 = citycountry(`Tokyo` ,`Japan`)
+// let c3 = citycountry(`Paris`,`France`)
+
+// console.log(c1) 
+// console.log(c2)
+// console.log(c3)
+
+//question: 40
+
+// function makeAlbum (artist:string, title:string):{artist :string , title :string} {
+//     const dictionaries = {
+//             artist: artist.charAt(0).toUpperCase() + artist.slice(1),
+//             title: title.charAt(0).toUpperCase() + title.slice(1)
+//     };
+//     return dictionaries;
+// } 
+    
+// let album = makeAlbum("salar" ,"light")
+// console.log(album)
+
+//  album = makeAlbum("rais" ,"red wave")
+// console.log(album)
+
+ //album = makeAlbum("ammar" ,"seenbreez")
+//console.log(album)
+
+//question:41
+// let magician : string[] =['Harry Potter','Hermione Granger','Ron weasley','Albus Dumbledore'];
+
+// function show_magicians(magicians:string[]){
+// 
+    // magicians.forEach(element => {
+        // console.log(element);
+    // });
+// }
+// show_magicians(magician);
+
+// quesion:42
+
+// let magician : string[] =['Harry Potter','Hermione Granger','Ron weasley','Albus Dumbledore'];
+
+// function make_great (magicianArry:string[] ){
+
+//     for(let i=0; i<magicianArry.length;i++){
+
+//          magician[i] = 'the Great '+magicianArry[i]
+//     }
+// }
+// function show_magicians(magicians:string[]){
+
+//     magicians.forEach(element => {
+
+//         console.log(element);
+//     });
+// }
+
+// make_great(magician);
+
+// show_magicians(magician);
+
+ //question:43
+
+// let magician : string[] =['Harry Potter','Hermione Granger','Ron weasley','Albus Dumbledore'];
+
+// function copyArry(arr:string[]){
+    //  return [...arr]
+
+// }
+
+// function make_great (magicianArry:string[] ){
+
+    // for(let i=0; i<magicianArry.length;i++){
+
+        //  magicianArry[i] = 'the Great '+ magicianArry[i]
+    // }
+// }
+// function show_magicians(magicians:string[]){
+
+    // magicians.forEach(element => {
+
+        // console.log(element);
+    // });
+// }
+// const copyMagicianArry = copyArry(magician)
+
+// make_great(copyMagicianArry);
+
+// console.log('\n\nThis is my original array:');
+// show_magicians(magician);
+
+// console.log('\n\nThis is my modified copy of the array');
+// show_magicians(copyMagicianArry);
+
+//question:44
+
+// function makeSandwich (item: string[]){
+    // console.log('Making your sandwich with:');
+
+    // item.forEach(element => console.log("- " + element) );
+    // console.log('Enjoy your Sandwich ! ');
+    // }
+
+    // makeSandwich(['Ham','Cheese','lettuce']);
+    // makeSandwich(['Turkey','Bacon']);
+    // makeSandwich(['Peanut butter','Jelly']);
+
+    //question:45
+    // function storeCarInfo(manufacturer: string, modelName:string, ...extraOption: { [key : string ]:any } [] ) : object {
+
+        // const carInfo ={
+            // manufacturer,
+            // modelName,
+            // ...Object.assign({}, ...extraOption)
+        // }
+
+        // return carInfo;
+    // };
+
+
+    //  let answer = storeCarInfo('Honda','Civic', {color:'black'},{features: ['Navigation', 'Power window']})
+
+    // console.log(answer);
+
+            //    COMPLETE 45 ASSIGNMENTS    
+
+            // !!!!!!!  THANK  !!!!!!!!

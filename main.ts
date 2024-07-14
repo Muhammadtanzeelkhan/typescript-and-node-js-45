@@ -269,10 +269,30 @@
 //     console.log("player just earned 10 points")
 // }
 // Q27:
-let alien_colour = "green"
+// let alien_colour = "green"
 
-if (alien_colour == "green") {
-    console.log("5 points")
-}  if alien_colour == ""yellow" {
-    console.log("10 points")
-}
+// if (alien_colour == "green") {
+//     console.log("5 points")
+// } else if (alien_colour == "yellow") {
+//     console.log("10 points")
+//  } else{
+//         console.log("15 points")
+//     }
+ //Q28:
+//  ..............2,4,13,20,65
+
+// let age : number = 18
+
+// if(age < 2){
+// console.log("you are a baby")
+// } else if (age < 4) {
+// console.log("you are a toddler")
+// } else if (age < 13){
+//   console.log("yoy area kid")
+// } else if (age < 20){
+// console.log("you are teenager")
+// } else if( age < 65) {
+// console.log("you are adult")
+// } else{
+// console.log("you are older")
+// }
